@@ -17,10 +17,10 @@ public class PlayerController : MonoBehaviour {
     public bool isMoving { get; private set; }
 
     // Components
-    private CharacterController characterController;
+    private Rigidbody rb;
 
     private void Awake() {
-        characterController = GetComponent<CharacterController>();
+        rb = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked;
     }
 
@@ -40,10 +40,11 @@ public class PlayerController : MonoBehaviour {
             var targetAngle = Mathf.Atan2(movement.x, movement.z) *
             Mathf.Rad2Deg + cameraTransform.eulerAngles.y;
             var angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
-            var moveDir = Quaternion.Euler(0f, angle, 0f) * Vector3.forward;
-
-            characterController.Move(moveDir * playerSpeed * Time.deltaTime);
-            transform.rotation = Quaternion.Euler(0f, angle, 0f);
+            transform.rotation = Quaternion.Euler(0f, angle, 0f);   
+            
+            var moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
+            rb.MovePosition(transform.position + moveDir.normalized * playerSpeed * Time.deltaTime);
+            
 
             isMoving = true;
         } else isMoving = false;

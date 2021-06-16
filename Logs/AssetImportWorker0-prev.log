@@ -15,11 +15,11 @@ C:/Users/Pereira/Documents/Unity Projects/2° Game - 10 Week Challenge
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58216
+49854
 Successfully changed project path to: C:/Users/Pereira/Documents/Unity Projects/2° Game - 10 Week Challenge
 C:/Users/Pereira/Documents/Unity Projects/2° Game - 10 Week Challenge
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 138.58 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 248.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -36,148 +36,20 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008536 seconds.
+Registered in 0.284429 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 321.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 121.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.501 seconds
+- Completed reload, in  4.089 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015706 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Pereira\Documents\Unity Projects\2° Game - 10 Week Challenge\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Pereira\Documents\Unity Projects\2° Game - 10 Week Challenge\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 119.65 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.352 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4972 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 189.4 MB.
-System memory in use after: 189.7 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5429.
-Total: 4.525400 ms (FindLiveObjects: 0.511900 ms CreateObjectMapping: 0.380000 ms MarkObjects: 3.529300 ms  DeleteObjects: 0.102200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffd2c44ffeb50c574abb5d0c4453328') in 0.048289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 506.887088 seconds.
-  path: Assets/ExampleAssets
-  artifactKey: Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExampleAssets using Guid(990f5c2df70993f4987a388ca178996a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ac45704b3e904ca5b19a6457cc79ac') in 0.008294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.345942 seconds.
-  path: Assets/Thirdparty
-  artifactKey: Guid(ca91bc3835baf554f83d7e283284e008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty using Guid(ca91bc3835baf554f83d7e283284e008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dac72cc7808e7a2e8542f2c1570141d1') in 0.007182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.902655 seconds.
-  path: Assets/Thirdparty/Gridbox Prototype Materials
-  artifactKey: Guid(caceaf7da863d3640bb37b6697f559ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Thirdparty/Gridbox Prototype Materials using Guid(caceaf7da863d3640bb37b6697f559ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767195e41a4798fe1378c3798f803369') in 0.011420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 227.935816 seconds.
-  path: Assets/TutorialInfo
-  artifactKey: Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TutorialInfo using Guid(49110bb8dcada46328ad741970bce702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5a30219286eb2a872f2f84d66d9616') in 0.010320 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004233 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Pereira\Documents\Unity Projects\2° Game - 10 Week Challenge\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Pereira\Documents\Unity Projects\2° Game - 10 Week Challenge\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.174 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4858 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 184.3 MB.
-System memory in use after: 183.1 MB.
-
-Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 5432.
-Total: 3.461300 ms (FindLiveObjects: 0.345200 ms CreateObjectMapping: 0.208900 ms MarkObjects: 2.267100 ms  DeleteObjects: 0.639500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.398504 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(89adaafb9b2547d4ba4c20dfa0d21fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(89adaafb9b2547d4ba4c20dfa0d21fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23d5fa8fd3e5f816c8f488554ebf08a') in 0.010812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.464135 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7c01bc8ed57adf1ede3d700e613d7f') in 0.016726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.208315 seconds.
-  path: Assets/Scenes/SampleSceneLightingSettings.lighting
-  artifactKey: Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleSceneLightingSettings.lighting using Guid(477cc4148fad3449482a3bc3178594e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a26a52e718306fba651ad1c5ff177c0') in 0.009558 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004371 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Pereira\Documents\Unity Projects\2° Game - 10 Week Challenge\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Pereira\Documents\Unity Projects\2° Game - 10 Week Challenge\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.065 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4930 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.4 MB.
-System memory in use after: 185.4 MB.
-
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 5507.
-Total: 3.348200 ms (FindLiveObjects: 0.350400 ms CreateObjectMapping: 0.194400 ms MarkObjects: 2.276700 ms  DeleteObjects: 0.526100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.963551 seconds.
-  path: Assets/Scenes/New Scene.unity
-  artifactKey: Guid(51f2b1a372774ba4f83a41308e988906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Scene.unity using Guid(51f2b1a372774ba4f83a41308e988906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb08ec928f42766b12c72e9d3dc1c87a') in 0.022119 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.757471 seconds.
